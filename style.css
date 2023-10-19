@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+
+/* Custom styles for navbar background with the help
+ of background gradient property having three color in it
+*/
+.navbar-custom {
+    background: linear-gradient(to right, #2ecc71, #E5CFF7, #3498db);
+    /* Use your desired colors */
+}
+
+/* use css filter property that helpus to change our img color */
+.navbar-brand img {
+    filter: brightness(5) invert(1);
+
+}
+
+/* give margin left to navbar img to look good */
+.navbar-brand img {
+    margin-left: 30px;
+}
+
+.navbar-brand img:hover {
+    background-color: #130101ec;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+
+.collapse {
+    margin-right: 30px;
+}
+
+/* use important property that give important to my this styling than by default styling of bootstrap */
+.collapse ul li a {
+    font-size: 22px;
+    color: #fff !important;
+    margin: 5px;
+}
+
+
+
+/* use hover property and give it some properties */
+.nav-link:hover {
+    font-size: 22px;
+    background-color: #8614e4;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}

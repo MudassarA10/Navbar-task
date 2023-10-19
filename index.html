@@ -1,0 +1,71 @@
+<!-- in this task i use bootstrap navbar that have version 4.5.2 
+to use it we link bootstrap link and some javascript at the end 
+of body that have some links that help in using bootstrap-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    </style>
+    <title>Navbar</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <!--  The <nav> tag defines a set of navigation links.
+        The <nav> tag also supports the Global Attributes in HTML.
+    and noticeably it is the largest part of navbar 
+and it have bootstrap class that support my nevbar-->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <!-- for logo i use a logo using anchar tag <a> which make 
+            my logo click able on hover on click -->
+        <a class="navbar-brand" href="#">
+            <!-- img -->
+            <!-- img tag we use that have img link in png formate(Portable Network Graphic)
+                 and it width and height in it and using bootstrap classes i align it to top   -->
+            <img src="LOGO.png" width="200" height="60" class="d-inline-block align-top" alt="Your Logo">
+        </a>
+        <!-- toggle button  -->
+        <!-- we use toggle button that thave my nav links in it when we 
+    adjust on different screen just like responsive ness  -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- links -->
+        <!-- use a div container that have un ordred list as my anchar <a>  tag 
+    and justify content with help of bootstrap classes-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <!-- use bootstrap classes that are navbar-nav and nav-item and nav-link -->
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Add your content here -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
